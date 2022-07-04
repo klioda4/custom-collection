@@ -1,4 +1,4 @@
-package ru.clevertec.kli.customcollection.array;
+package ru.clevertec.kli.customcollection.list;
 
 import java.util.Iterator;
 

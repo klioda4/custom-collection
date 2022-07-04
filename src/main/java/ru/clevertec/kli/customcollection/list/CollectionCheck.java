@@ -1,13 +1,12 @@
-package ru.clevertec.kli.customcollection;
+package ru.clevertec.kli.customcollection.list;
 
 import java.util.Arrays;
-import ru.clevertec.kli.customcollection.array.CustomList;
-import ru.clevertec.kli.customcollection.array.CustomArrayList;
-import ru.clevertec.kli.customcollection.array.InsertableIterator;
+import ru.clevertec.kli.customcollection.list.impl.CustomArrayList;
 
 public class CollectionCheck {
 
     public static void main(String[] args) {
+        System.out.println("__ Custom array list checks __");
         printChecksOfCustomList(new CustomArrayList<>());
     }
 

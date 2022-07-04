@@ -1,4 +1,4 @@
-package ru.clevertec.kli.customcollection.array;
+package ru.clevertec.kli.customcollection.list;
 
 public interface CustomList<T> extends Iterable<T> {
 

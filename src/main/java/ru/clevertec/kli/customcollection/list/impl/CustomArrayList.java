@@ -1,7 +1,9 @@
-package ru.clevertec.kli.customcollection.array;
+package ru.clevertec.kli.customcollection.list.impl;
 
 
 import java.util.Iterator;
+import ru.clevertec.kli.customcollection.list.CustomList;
+import ru.clevertec.kli.customcollection.list.InsertableIterator;
 
 public class CustomArrayList<T> implements CustomList<T> {
 
