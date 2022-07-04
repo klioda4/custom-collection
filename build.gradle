@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id "application"
 }
 
 group 'ru.clevertec.kli'
@@ -10,4 +11,8 @@ repositories {
 }
 
 dependencies {
+}
+
+application {
+    mainClassName = "ru.clevertec.kli.customcollection.CollectionCheck"
 }
