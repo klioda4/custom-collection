@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id "application"
 }
 
 group 'ru.clevertec.kli'
@@ -10,4 +11,10 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.openjdk.jmh:jmh-core:1.35'
+    annotationProcessor 'org.openjdk.jmh:jmh-generator-annprocess:1.35'
+}
+
+application {
+    mainClassName = "ru.clevertec.kli.customcollection.benchmark.SpeedComparationRunner"
 }
